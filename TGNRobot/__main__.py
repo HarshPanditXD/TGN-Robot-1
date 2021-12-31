@@ -80,23 +80,23 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    [
+   [
         
-        InlineKeyboardButton(text="Update 💫", url=f"https://t.me/UNIQUE_SOCIETY"),
-        InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/ALL_DEAR_COMRADE"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="Add", url="t.me/TGN_Ro_bot?startgroup=true"),
-    ],
+      InlineKeyboardButton(text="Update 💫", url=f"https://t.me/UNIQUE_SOCIETY"),
+      InlineKeyboardButton(
+          text="Support ⚡", url=f"https://t.me/ALL_DEAR_COMRADE"
+      ),
+  ],
+  [
+      InlineKeyboardButton(text="Command", callback_data="help_back"),
+      InlineKeyboardButton(
+          text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/HYPERMEN_SUPPORT"
+      ),
+  ],
+  [
+      InlineKeyboardButton(
+          text="Add", url="t.me/TGN_Ro_bot?startgroup=true"),
+  ],
 ]
 
 
