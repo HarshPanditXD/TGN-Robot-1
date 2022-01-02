@@ -74,30 +74,42 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/cab6825dea9263d347831.jpg)
+────「 [{}](https://telegra.ph/file/2909a312d9438798d237a.png) 」────
+*Hola! {},*
+*I am an Anime themed advance group management bot with a lot of Sexy Features.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+• *Uptime:* `{}`
+• `{}` *users, across* `{}` *chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➛ Try The Help Buttons Below To Know My Abilities ××
+"""
+
+GROUP_START_TEXT = """
+I'm awake already!
+Haven't slept since: {}
 """
 
 buttons = [
-   [
-        
-      InlineKeyboardButton(text="Update 💫", url=f"https://t.me/UNIQUE_SOCIETY"),
-      InlineKeyboardButton(
-          text="Support ⚡", url=f"https://t.me/ALL_DEAR_COMRADE"
-      ),
-  ],
-  [
-      InlineKeyboardButton(text="Command", callback_data="help_back"),
-      InlineKeyboardButton(
-          text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/HYPERMEN_SUPPORT"
-      ),
-  ],
-  [
-      InlineKeyboardButton(
-          text="Add", url="t.me/TGN_Ro_bot?startgroup=true"),
-  ],
-]
+    [
+                        InlineKeyboardButton(
+                            text=f"Add {BOT_NAME} To Your Group",
+                            url=f"t.me/{BOT_USERNAME}?startgroup=true")
+                    ],
+                   [
+                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/HindiKDrama"),
+                       InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
+                     ],
+                    [                  
+                       InlineKeyboardButton(
+                             text="🚑 Support",
+                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                       InlineKeyboardButton(
+                             text="📢 Updates",
+                             url="https://t.me/Black_Knights_Union")
+                     ], 
+    ]
+
 
 
 HELP_STRINGS = """
