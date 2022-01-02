@@ -47,6 +47,20 @@ from telegram.ext import (
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
+@telethn.on(events.NewMessage(pattern="/alive"))
+async def awake(event):
+  CUTIEPII = event.sender.first_name
+  CUTIEPII = "**♡ I,m Cutiepii Robot 愛** \n\n"
+  CUTIEPII += "**♡ I'm Working With Awesome Speed**\n\n"
+  CUTIEPII += "**♡ Cutiepii: LATEST Version**\n\n"
+  CUTIEPII += "**♡ My Creator:** [Rajkumar](t.me/Awesome_RJ)\n\n"
+  CUTIEPII += "**♡ python-Telegram-Bot: 13.7**\n\n"
+  CUTIEPII_BUTTON = [
+      [
+          Button.url("🚑 Support", f"https://t.me/{SUPPORT_CHAT}"),
+          Button.url("📢 Updates", "https://t.me/Black_Knights_Union")
+      ]
+  ]
 
 def get_readable_time(seconds: int) -> str:
     count = 0
