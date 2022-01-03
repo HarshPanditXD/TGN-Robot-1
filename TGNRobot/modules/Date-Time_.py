@@ -1,5 +1,3 @@
-from /Date import CMD_HELP
-import os
 from TGNRobot import tbot
 import datetime
 from typing import List
