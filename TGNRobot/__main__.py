@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-PM_START_TEXT = """
+PM_START_TEXT.format( = """
 ────「 [{}](https://telegra.ph/file/2909a312d9438798d237a.png) 」────
 *Hola! {},*
 *I am an Anime themed advance group management bot with a lot of Sexy Features.*
