@@ -72,41 +72,38 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-PM_START_TEXT( = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/cab6825dea9263d347831.jpg)
-
-✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
-✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
-────────────────────────
-× *Uᴘᴛɪᴍᴇ:* `{}`
-× `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
-────────────────────────
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+PM_START_TEXT = """
+[🌈](https://telegra.ph/file/25f86eb9b2dcec425790f.jpg) ' ☞ ✰Hᴇʟʟᴏ... Fʀɪᴇɴᴅꜱ I'ᴍ' [✰🅷yᴩᴇʀᴍᴇɴ ✘ 🆁ᴏʙᴏᴛ✰](https://t.me/hypermen_rbot)
+────────────────────
+* I'ᴍ ᴀɴ Mᴜsɪᴄ + Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.*
+────────────────────
+✪ Hɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
 """
-
 buttons = [
     [
+        InlineKeyboardButton(text="🔰 Aʙᴏᴜᴛ ", callback_data="Nao_"),
         InlineKeyboardButton(
-            text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
-        InlineKeyboardButton(
-            text="Iɴʟɪɴᴇ", switch_inline_query_current_chat=""
+            text="📝 Bᴀsɪᴄ Hᴇʟᴘ", callback_data="Nao_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="yurikorobot_"),
-        InlineKeyboardButton(
-            text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="yurikorobot_basichelp"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/YurikoRobot?startgroup=true"),
-    ],
+        InlineKeyboardButton(text="🎇 Uᴘᴅᴀᴛᴇ", url=f"https://t.me/THE_FURIOUSNETWORK"),
+      InlineKeyboardButton(
+          text="⚙️ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"
+      ),
+  ],
+  [
+      InlineKeyboardButton(text="🔐 Hᴇʟᴘ Cᴍᴅ", callback_data="help_back"),
+      InlineKeyboardButton(
+          text="🏜️ Tғɴ Cʜᴀᴛ ", url=f"https://t.me/LOVE_X_POISON"
+      ),
+  ],
+  [
+      InlineKeyboardButton(
+          text="➕Aᴅᴅ Mᴇ Yᴏᴜʀ Gʀᴏᴜᴘ➕", url="t.me/HYPERMEN_RBOT?startgroup=true"),
+  ],
 ]
+
 
 
 
