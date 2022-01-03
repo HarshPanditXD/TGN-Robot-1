@@ -127,24 +127,28 @@ Haven't slept since: {}
 
 buttons = [
     [
-                        InlineKeyboardButton(
-                            text=f"Add {BOT_NAME} To Your Group",
-                            url=f"t.me/{BOT_USERNAME}?startgroup=true")
-                    ],
-                   [
-                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/HindiKDrama"),
-                       InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
-                     ],
-                    [                  
-                       InlineKeyboardButton(
-                             text="🚑 Support",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
-                       InlineKeyboardButton(
-                             text="📢 Updates",
-                             url="https://t.me/Black_Knights_Union")
-                     ], 
-    ]
+        InlineKeyboardButton(text="🔰 Aʙᴏᴜᴛ ", callback_data="Nao_"),
+        InlineKeyboardButton(
+            text="📝 Bᴀsɪᴄ Hᴇʟᴘ", callback_data="Nao_basichelp"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="🎇 Uᴘᴅᴀᴛᴇ", url=f"https://t.me/THE_FURIOUSNETWORK"),
+      InlineKeyboardButton(
+          text="⚙️ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"
+      ),
+  ],
+  [
+      InlineKeyboardButton(text="🔐 Hᴇʟᴘ Cᴍᴅ", callback_data="help_back"),
+      InlineKeyboardButton(
+          text="🏜️ Tғɴ Cʜᴀᴛ ", url=f"https://t.me/LOVE_X_POISON"
+      ),
+  ],
+  [
+      InlineKeyboardButton(
+          text="➕Aᴅᴅ Mᴇ Yᴏᴜʀ Gʀᴏᴜᴘ➕", url="t.me/HYPERMEN_RBOT?startgroup=true"),
+  ],
+]
 
                     
 HELP_STRINGS = """
