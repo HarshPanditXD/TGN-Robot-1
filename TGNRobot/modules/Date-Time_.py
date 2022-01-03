@@ -1,4 +1,4 @@
-from TGNRobot import CMD_HELP
+from /Date import CMD_HELP
 import os
 from TGNRobot import tbot
 import datetime
