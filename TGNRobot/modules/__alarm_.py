@@ -1,4 +1,4 @@
-from TGN import tbot
+from TGNRobot import tbot
 from telethon import *
 from pymongo import MongoClient
 from TGN import MONGO_DB_URI, CMD_HELP
