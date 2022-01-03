@@ -82,24 +82,23 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/ITZ-ZAID/TGN-Robot"),
-        InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/The_Godfather_Network"),
-        InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
-    ],
-]
+                            text=f"Add {BOT_NAME} To Your Group",
+                            url=f"t.me/{BOT_USERNAME}?startgroup=true")
+                    ],
+                   [
+                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/HindiKDrama"),
+                       InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
+                     ],
+                    [                  
+                       InlineKeyboardButton(
+                             text="🚑 Support",
+                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                       InlineKeyboardButton(
+                             text="📢 Updates",
+                             url="https://t.me/Black_Knights_Union")
+                     ], 
+    ]
 
 
 HELP_STRINGS = """
