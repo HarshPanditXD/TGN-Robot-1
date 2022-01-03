@@ -88,7 +88,7 @@ buttons = [
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
                        InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/HindiKDrama"),
-                       InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
+                       InlineKeyboardButton(text="[► Inline ◄]", url="https://t.me/UNIQUE_SOCIETY),
                      ],
                     [                  
                        InlineKeyboardButton(
@@ -96,7 +96,7 @@ buttons = [
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="https://t.me/Black_Knights_Union")
+                             url="https://t.me/the_BLAZE_NETWORK")
                      ], 
     ]
 
