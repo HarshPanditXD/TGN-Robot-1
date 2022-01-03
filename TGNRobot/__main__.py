@@ -73,12 +73,22 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 PM_START_TEXT = """
-[🌈](https://telegra.ph/file/25f86eb9b2dcec425790f.jpg) ' ☞ ✰Hᴇʟʟᴏ... Fʀɪᴇɴᴅꜱ I'ᴍ' [✰🅷yᴩᴇʀᴍᴇɴ ✘ 🆁ᴏʙᴏᴛ✰](https://t.me/hypermen_rbot)
-────────────────────
-* I'ᴍ ᴀɴ Mᴜsɪᴄ + Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.*
-────────────────────
-✪ Hɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
+────「 [{}](https://telegra.ph/file/2909a312d9438798d237a.png) 」────
+*Hola! {},*
+*I am an Anime themed advance group management bot with a lot of Sexy Features.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+• *Uptime:* `{}`
+• `{}` *users, across* `{}` *chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➛ Try The Help Buttons Below To Know My Abilities ××
 """
+
+GROUP_START_TEXT = """
+I'm awake already!
+Haven't slept since: {}
+"""
+
+
 buttons = [
     [
         InlineKeyboardButton(text="🔰 Aʙᴏᴜᴛ ", callback_data="Nao_"),
@@ -103,8 +113,6 @@ buttons = [
           text="➕Aᴅᴅ Mᴇ Yᴏᴜʀ Gʀᴏᴜᴘ➕", url="t.me/HYPERMEN_RBOT?startgroup=true"),
   ],
 ]
-
-
 
 
 HELP_STRINGS = """
